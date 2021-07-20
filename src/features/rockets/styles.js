@@ -43,10 +43,10 @@ export const RocketCardWrapper = styled.figure`
 export const TextDrawer = styled.figcaption`
   position: absolute;
   box-sizing: border-box;
-  bottom: -15%;
+  bottom: -25%;
   left: 0;
   width: 100%;
-  height: 33%;
+  height: 34%;
   margin: 0;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.85);
