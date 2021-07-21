@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project is hosted on github pages, follow this link: https://mruddh.github.io/spaceXRockets/
 
 ## Available Scripts
 
