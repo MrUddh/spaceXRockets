@@ -78,6 +78,7 @@ export const Hearth = styled.h2`
   font-size: 30px;
   font-weight: 300;
   line-height: 1;
+  cursor: pointer;
 `;
 
 export const Subtitle = styled.h3`
