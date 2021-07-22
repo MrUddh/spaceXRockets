@@ -23,6 +23,7 @@ export const RocketCardWrapper = styled.figure`
   align-items: center;
   justify-content: center;
   width: 675px;
+  min-width: 300px;
   height: 750px;
   border-radius: 10px;
   margin: 5rem;
@@ -37,6 +38,12 @@ export const RocketCardWrapper = styled.figure`
     figcaption {
       bottom: 0;
     }
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 375px;
+    min-width: 300px;
+    height: 550px;
   }
 `;
 
@@ -54,6 +61,12 @@ export const TextDrawer = styled.figcaption`
   color: white;
   line-height: 1;
   transition: 1.25s;
+
+  @media only screen and (max-width: 500px) {
+    bottom: -49%;
+    height: 60%;
+    padding: 20px;
+  }
 `;
 
 export const Title = styled.h1`
