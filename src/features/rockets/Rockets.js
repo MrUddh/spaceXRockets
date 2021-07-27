@@ -4,7 +4,7 @@ import { loadingOrErrorStatus } from '../../utils';
 import { IDLE } from './constants';
 import RocketCard from './RocketCard';
 import { getRockets, selectRockets, selectStatus } from './rocketsSlice';
-import { BackgroundSparkles } from './styles';
+import { BackgroundSparkles, FlyingTesla } from './styles';
 
 const Rockets = () => {
   const dispatch = useDispatch();
@@ -23,6 +23,13 @@ const Rockets = () => {
         loadingOrErrorStatus(status)
       ) : (
         <BackgroundSparkles>
+          <FlyingTesla>
+            <img
+              src="https://cdn.motor1.com/images/mgl/48vxY/s1/tesla-roadster-in-space.webp"
+              width="200px"
+              alt=""
+            />
+          </FlyingTesla>
           {rockets?.map((rocket) => (
             <RocketCard key={rocket.id} rocket={rocket} />
           ))}
